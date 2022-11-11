@@ -1,25 +1,69 @@
 package Entity;
 
+import jakarta.persistence.*;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import org.hibernate.annotations.Table;
-
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
 @Table(name = "users")
-public class users {
+public class User {
     @Id
-    @GeneratedValue (strategy = GenerationType.AUTO)
+    @SequenceGenerator(name = "user_seq",
+            sequenceName = "user_seqs", allocationSize = 1)
+    @GeneratedValue (strategy = GenerationType.SEQUENCE,generator = "user_seq")
+    @Column(name = "id_user")
     private int id;
-    private int age;
-    private String first_name;
-    private String last_name;
 
-    public users() {
+
+    @OneToOne(mappedBy = "id",cascade = CascadeType.ALL)
+    private User_details users_id_details;
+    @OneToMany(mappedBy = "id_users")
+    private List<Orders> listOrders = new ArrayList<>();
+    @ManyToMany(cascade = CascadeType.ALL )
+    @JoinTable(
+            name = "chopping_cart",
+            joinColumns = @JoinColumn(name = "id_user") ,
+            inverseJoinColumns =  @JoinColumn(name = "id_product")
+    )
+    private List<Products> listProducts = new ArrayList<>();
+
+
+    @Column(name = "age")
+    private int age;
+    @Column(name = "first_name")
+    private String first_name;
+
+    public User() {}
+    public void removeProduct(Products products){
+        listProducts.add(products);
+        products.getUserList().add(this);
+    }
+
+
+    public List<Orders> getListOrders() {
+        return listOrders;
+    }
+
+    public void setListOrders(List<Orders> listOrders) {
+        this.listOrders = listOrders;
+    }
+
+    public List<Products> getListProducts() {
+        return listProducts;
+    }
+
+    public void setListProducts(List<Products> listProducts) {
+        this.listProducts = listProducts;
+    }
+
+    public User_details getUsers_id_details() {
+        return users_id_details;
+    }
+
+    public void setUsers_id_details(User_details users_id) {
+        this.users_id_details = users_id;
     }
 
     public int getId() {
@@ -50,8 +94,8 @@ public class users {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        users users = (users) o;
-        return id == users.id && age == users.age && Objects.equals(first_name, users.first_name) && Objects.equals(last_name, users.last_name);
+        User users = (User) o;
+        return id == users.id && age == users.age && Objects.equals(first_name, users.first_name);
     }
 
     @Override
@@ -65,11 +109,8 @@ public class users {
 
     @Override
     public String toString() {
-        return "users{" +
-                "id=" + id +
-                ", age=" + age +
-                ", first_name='" + first_name + '\'' +
-                ", last_name='" + last_name + '\'' +
-                '}';
+        return  "id = " + id +
+                " | age = " + age +
+                " | first_name = " + first_name ;
     }
 }

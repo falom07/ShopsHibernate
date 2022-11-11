@@ -1,13 +1,36 @@
-package Second_task.Entity;
+package Entity;
 
-import java.sql.Date;
+import jakarta.persistence.*;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
-
+@Entity
+@Table(name = "products")
 public class Products {
+    @Id
+    @SequenceGenerator(name = "seq_product",sequenceName = "seq_products",allocationSize = 1,initialValue = 15)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "seq_product")
+    @Column(name = "id_products")
     private int id;
+    @Column(name = "product")
     private String product;
+    @Column(name = "information")
     private String information;
+    @Column(name = "price")
     private int price;
+    @ManyToMany(mappedBy = "listProducts")
+    private List<User> userList = new ArrayList<>();
+
+
+
+    public void setUserList(List<User> userList) {
+        this.userList = userList;
+    }
+
+    public List<User> getUserList() {
+        return userList;
+    }
 
     public int getId() {
         return id;

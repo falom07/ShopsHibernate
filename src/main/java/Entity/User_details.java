@@ -1,15 +1,24 @@
 package Entity;
 
+import jakarta.persistence.*;
 
-public class user_details {
-    private int id;
+import java.util.Objects;
+
+@Entity
+@Table(name = "user_details")
+public class User_details {
+    @Id
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_details",referencedColumnName = "id_user")
+    private User id;
+    @Column(name = "detail_information")
     private String detail_information;
 
-    public int getId() {
+    public User getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(User id) {
         this.id = id;
     }
 
@@ -22,26 +31,22 @@ public class user_details {
     }
 
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, detail_information);
+    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        user_details that = (user_details) o;
+        User_details that = (User_details) o;
         return id == that.id && detail_information.equals(that.detail_information);
     }
 
     @Override
-    public int hashCode() {
-        int result = 31 + id;
-        result = 31 * result + (detail_information == null ? 0 :detail_information.hashCode());
-        return result;
-    }
-    @Override
     public String toString() {
-        return "user_details{" +
-                "id=" + id +
-                ", detail_information='" + detail_information + '\'' +
-                '}';
+        return "name = " + id.getFirst_name() +
+                "| detail_information = " + detail_information;
     }
 }

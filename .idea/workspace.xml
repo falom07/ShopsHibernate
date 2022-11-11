@@ -4,26 +4,190 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d368c132-0e65-4d55-a767-2a41f942bee1" name="Changes" comment="" />
+    <list default="true" id="d368c132-0e65-4d55-a767-2a41f942bee1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/ChoppingCartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDetailsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/User_details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactorySection/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactorySection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servise/ChoppingCartServise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servise/OrderServise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servise/ProductServise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servise/UserDetailServise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servise/UserServise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestChoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestOrderServise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestProductsServise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestUserServise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg_for_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2GowBzc1iKCb1vPGqugU2V9cNhl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;import_schema_mapping&quot;: &quot;&lt;schema-mapping&gt;\n  &lt;databases&gt;\n    &lt;list&gt;\n      &lt;schema-mapping-item&gt;\n        &lt;source-data-source-id&gt;35f6ed23-b700-42ea-bec0-6c5c701aee57&lt;/source-data-source-id&gt;\n        &lt;source-path&gt;schema/&amp;quot;shops&amp;quot;&lt;/source-path&gt;\n        &lt;target-data-source-id&gt;71672fe6-379e-42e0-b492-a230d211c965&lt;/target-data-source-id&gt;\n        &lt;target-path&gt;schema/&amp;quot;shops_test&amp;quot;&lt;/target-path&gt;\n      &lt;/schema-mapping-item&gt;\n    &lt;/list&gt;\n  &lt;/databases&gt;\n&lt;/schema-mapping&gt;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vitalik/Project Programiring/Date_Base_Hibernate/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/Servise" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Test in Date_Base_Hibernate">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactorySection.Main" />
+      <module name="Date_Base_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactorySection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test in Date_Base_Hibernate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Date_Base_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderServise.keppOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Date_Base_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestOrderServise" />
+      <option name="METHOD_NAME" value="keppOrderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderServise.takeAllOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Date_Base_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestOrderServise" />
+      <option name="METHOD_NAME" value="takeAllOrderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderServise.takeOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Date_Base_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestOrderServise" />
+      <option name="METHOD_NAME" value="takeOrderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test in Date_Base_Hibernate" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestOrderServise.takeAllOrderTest" />
+        <item itemvalue="JUnit.TestOrderServise.keppOrderTest" />
+        <item itemvalue="JUnit.TestOrderServise.takeOrderTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,7 +196,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667068116899</updated>
+      <workItem from="1667068117970" duration="2881000" />
+      <workItem from="1667117967293" duration="6917000" />
+      <workItem from="1667133811087" duration="3571000" />
+      <workItem from="1667144421948" duration="8801000" />
+      <workItem from="1667236861387" duration="5872000" />
+      <workItem from="1667372892698" duration="4694000" />
+      <workItem from="1667405301250" duration="1057000" />
+      <workItem from="1667407010051" duration="3040000" />
+      <workItem from="1667501089693" duration="4502000" />
+      <workItem from="1667551233321" duration="1252000" />
+      <workItem from="1667556513849" duration="681000" />
+      <workItem from="1667577956829" duration="9774000" />
+      <workItem from="1667651434632" duration="3190000" />
+      <workItem from="1667656243596" duration="551000" />
+      <workItem from="1667671795876" duration="3014000" />
+      <workItem from="1667728251050" duration="31122000" />
+      <workItem from="1667836306539" duration="607000" />
+      <workItem from="1667903685350" duration="599000" />
+      <workItem from="1667931723009" duration="12142000" />
+      <workItem from="1668009437108" duration="4938000" />
+      <workItem from="1668069801364" duration="10558000" />
+      <workItem from="1668081622227" duration="19931000" />
+      <workItem from="1668108793807" duration="6439000" />
+      <workItem from="1668156740085" duration="599000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Servise/ProductServise.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

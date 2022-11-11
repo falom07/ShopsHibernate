@@ -1,0 +1,61 @@
+2022-11-11 19:37:54,653 INFO [main] HHH000412: Hibernate ORM core version 6.1.4.Final
+2022-11-11 19:37:55,102 WARN [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2022-11-11 19:37:55,106 INFO [main] HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2022-11-11 19:37:55,106 INFO [main] HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/shops_test]
+2022-11-11 19:37:55,106 INFO [main] HHH10001001: Connection properties: {password=****, user=root}
+2022-11-11 19:37:55,107 INFO [main] HHH10001003: Autocommit mode: false
+2022-11-11 19:37:55,108 INFO [main] HHH10001115: Connection pool size: 100 (min=1)
+2022-11-11 19:37:55,521 INFO [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-11-11 19:37:56,148 INFO [main] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4ae8fb2a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-11-11 19:37:56,271 INFO [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-11 19:37:58,130 INFO [main] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/shops_test]
+2022-11-11 19:37:58,159 WARN [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2022-11-11 19:37:58,159 INFO [main] HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2022-11-11 19:37:58,160 INFO [main] HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/shops_test]
+2022-11-11 19:37:58,160 INFO [main] HHH10001001: Connection properties: {password=****, user=root}
+2022-11-11 19:37:58,160 INFO [main] HHH10001003: Autocommit mode: false
+2022-11-11 19:37:58,160 INFO [main] HHH10001115: Connection pool size: 100 (min=1)
+2022-11-11 19:37:58,188 INFO [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-11-11 19:37:58,243 INFO [main] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59baf2c7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-11-11 19:37:58,279 INFO [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-11 19:37:58,561 INFO [main] method for keep order to order(BD)
+2022-11-11 19:37:58,562 INFO [main] Create objects...
+2022-11-11 19:37:58,590 INFO [main] Take list product and sum...
+2022-11-11 19:37:58,590 INFO [main] Show list product and sum...
+2022-11-11 19:37:58,591 INFO [main] Add list product and sum to order...
+2022-11-11 19:37:58,591 INFO [main] Delete list product and sum from chopping cart of user...
+2022-11-11 19:37:58,592 INFO [main] method for delete all product to chopping cart
+2022-11-11 19:37:58,592 INFO [main] Take user...
+2022-11-11 19:37:58,592 INFO [main] Clear order from DB...
+2022-11-11 19:37:58,695 INFO [main] Save order...
+2022-11-11 19:37:59,065 INFO [main] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/shops_test]
+2022-11-11 19:37:59,105 WARN [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2022-11-11 19:37:59,106 INFO [main] HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2022-11-11 19:37:59,106 INFO [main] HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/shops_test]
+2022-11-11 19:37:59,106 INFO [main] HHH10001001: Connection properties: {password=****, user=root}
+2022-11-11 19:37:59,107 INFO [main] HHH10001003: Autocommit mode: false
+2022-11-11 19:37:59,107 INFO [main] HHH10001115: Connection pool size: 100 (min=1)
+2022-11-11 19:37:59,139 INFO [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-11-11 19:37:59,199 INFO [main] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4c030fe1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-11-11 19:37:59,229 INFO [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-11 19:38:00,315 INFO [main] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/shops_test]
+2022-11-11 19:38:00,358 WARN [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2022-11-11 19:38:00,358 INFO [main] HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2022-11-11 19:38:00,359 INFO [main] HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/shops_test]
+2022-11-11 19:38:00,359 INFO [main] HHH10001001: Connection properties: {password=****, user=root}
+2022-11-11 19:38:00,359 INFO [main] HHH10001003: Autocommit mode: false
+2022-11-11 19:38:00,360 INFO [main] HHH10001115: Connection pool size: 100 (min=1)
+2022-11-11 19:38:00,377 INFO [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-11-11 19:38:00,432 INFO [main] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2487e20] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-11-11 19:38:00,467 INFO [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-11 19:38:01,204 INFO [main] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/shops_test]
+2022-11-11 19:38:01,238 WARN [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2022-11-11 19:38:01,239 INFO [main] HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2022-11-11 19:38:01,239 INFO [main] HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/shops_test]
+2022-11-11 19:38:01,239 INFO [main] HHH10001001: Connection properties: {password=****, user=root}
+2022-11-11 19:38:01,239 INFO [main] HHH10001003: Autocommit mode: false
+2022-11-11 19:38:01,240 INFO [main] HHH10001115: Connection pool size: 100 (min=1)
+2022-11-11 19:38:01,264 INFO [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-11-11 19:38:01,313 INFO [main] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@68821f6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-11-11 19:38:01,347 INFO [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-11 19:38:02,650 INFO [main] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/shops_test]
